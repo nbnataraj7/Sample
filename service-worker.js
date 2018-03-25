@@ -1,4 +1,4 @@
-var cacheName = 'puppies-cache-v7';
+var cacheName = 'puppies-cache-v8';
 var filesToCache = [
   './',
   './index.html',
