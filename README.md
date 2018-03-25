@@ -1,4 +1,4 @@
-# Sample
+# Progressive puppies
 A simple web app that displays various breeds of dogs.
 The app is responsive and is made following the guidelines of progressive web apps as suggested here : https://codelabs.developers.google.com/codelabs/your-first-pwapp
 ##Footnotes
