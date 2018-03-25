@@ -47,3 +47,9 @@ html,body{
     height: 100%;
     background: #027e72;
 }
+.github-link{
+	position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 22px;
+}
