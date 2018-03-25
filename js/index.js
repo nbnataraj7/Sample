@@ -6,6 +6,7 @@ $(document).ready(function(){
 			for(var i=0; i<breeds.length; i++){
 				cards.push(getNewDogCard(breeds[i]));
 			}
+			$(".dogs-breed-list").children().remove();
 			$(".dogs-breed-list").append(cards);
 			setTimeout(fetchDefaultDogImages());
 			setTimeout(setCardListeners(), 50);
@@ -127,3 +128,12 @@ function fetchDefaultDogImages(){
 		});
 	});
 }
+
+
+
+//Registering service workers
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('service-worker.js')
+             .then(function() { console.log('Service Worker Registered'); });
+  }
