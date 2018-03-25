@@ -1,9 +1,11 @@
 var cacheName = 'puppies-cache-v7';
 var filesToCache = [
-  'index.html',
-  'w3.css',
-  'styles.css',
-  'img/pup.png'
+  './',
+  './index.html',
+  './w3.css',
+  './styles.css',
+  './img/pup.png',
+  './jquery.min.js'
 ];
 
 self.addEventListener("install", function(e){
